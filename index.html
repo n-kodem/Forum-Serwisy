@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIPPER-FORUM - Główna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg flipper-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo me-2" src="img/page_downloads_graphics_logo_black.png" alt="Forum-Logo">
+            FLIPPER-FORUM
+        </a>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">[GŁÓWNA]</a></li>
+                <li class="nav-item"><a class="nav-link" href="articles.html">MODUŁY</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">GALERIA</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">KONTAKT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
+<div class="container-fluid flex-grow-1 d-flex flex-column p-0">
+    <div class="row flex-grow-1 m-0">
+        <div class="col-md-2 sidebar">
+            <p class="text-decoration-underline text-white">STATUS STRONY:</p>
+            <p>Ładowanie strony: 100%<br>Połączenie: OK<br>Requesty: SKANUJE...</p>
+            <hr style="border-color: #333;">
+            <p>Zalogowano jako: <strong>GUEST</strong></p>
+        </div>
+
+        <div class="col-md-10 content-area">
+            <h2 class="text-center text-white mb-4">TERMINAL GŁÓWNY</h2>
+
+            <p>Witaj na <strong>nieoficjalnym</strong> repozytorium wiedzy. <em>Eksploruj</em> z głową. Niektóre sekcje mogą być <u>zablokowane</u>, stare informacje zostały <s>usunięte</s>, a nowości są <mark style="background-color: #ff8c00; color: #000;">podświetlone</mark>.</p>
+
+            <blockquote class="blockquote border-start border-warning ps-3 my-4 text-secondary">
+                <p>"Atak nie tylko jest łatwiejszy niż obrona; jest tańszy niż obrona." - Bruce Schneier</p>
+            </blockquote>
+
+            <table class="table table-bordered flipper-table mt-4">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Protokół</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>0x01</td>
+                    <td>Sub-GHz</td>
+                    <td>Aktywny</td>
+                </tr>
+                <tr>
+                    <td>0x02</td>
+                    <td>NFC</td>
+                    <td>Standby</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<footer class="footer text-center">
+    <div class="container-fluid row">
+        <div class="col-4 text-start">Uptime: 12d 4h</div>
+        <div class="col-4 text-warning fw-bold">© 2026 FLIPPER-FORUM.PL</div>
+        <div class="col-4 text-end">Wersja: v1.0.0</div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIPPER-FORUM - FAQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg flipper-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo me-2" src="img/page_downloads_graphics_logo_black.png" alt="Forum-Logo">
+            FLIPPER-FORUM
+        </a>
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">GŁÓWNA</a></li>
+                <li class="nav-item"><a class="nav-link" href="articles.html">MODUŁY</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">[FAQ]</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">GALERIA</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">KONTAKT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4 content-area">
+    <h1>Słownik pojęć</h1>
+
+    <dl class="mt-4">
+        <dt class="text-white">BadUSB</dt>
+        <dd>Symulacja innych urządzeń, gdzie po podłączeniu wykonuje zaprogramowaną sekwencję klawiszy (tzw. Ducky Script).</dd>
+
+        <dt class="text-white">Skimming</dt>
+        <dd>Kopiowanie danych z paska magnetycznego lub kart płatniczych / Rfid.</dd>
+
+        <dt class="text-white">Brute-force</dt>
+        <dd>Metoda łamania zabezpieczeń polegająca na sprawdzaniu wszystkich możliwych kombinacji (np. kodu PIN do rolet).</dd>
+    </dl>
+
+    <h2 class="mt-5">Porównanie narzędzi do Pentestów</h2>
+    <table class="table flipper-table mt-3">
+        <thead>
+        <tr>
+            <th>Funkcja</th>
+            <th>Flipper Zero</th>
+            <th>HackRF One</th>
+            <th>Proxmark3</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Przenośność</td>
+            <td>Wysoka (Bateria + Ekran)</td>
+            <td>Niska (Wymaga PC)</td>
+            <td>Średnia (Wymaga powerbanku/PC)</td>
+        </tr>
+        <tr>
+            <td>RFID / NFC</td>
+            <td>Tak (Podstawowe)</td>
+            <td>Nie</td>
+            <td>Tak (Zaawansowane)</td>
+        </tr>
+        <tr>
+            <td>Analiza widma (SDR)</td>
+            <td>Nie (tylko predefiniowane)</td>
+            <td>Tak (od 1 MHz do 6 GHz)</td>
+            <td>Nie</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<footer class="footer text-center">
+    <div class="container-fluid row">
+        <div class="col-4 text-start">Uptime: 12d 4h</div>
+        <div class="col-4 text-warning fw-bold">© 2026 FLIPPER-FORUM.PL</div>
+        <div class="col-4 text-end">Wersja: v1.0.0</div>
+    </div>
+</footer>
+</body>
+</html>
